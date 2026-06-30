@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+env/
+.env
+
+# Runtime outputs and local datasets are not committed.
+output/
+data/
+examples/
+docs/
+ppt/
+*.pptx
+*.zip
+*.log
+
+# Local LLM/cache artifacts.
+.lenovo_graph/
+.lenovo_graph_raw/
+**/.lenovo_graph_raw/
+
+.DS_Store
